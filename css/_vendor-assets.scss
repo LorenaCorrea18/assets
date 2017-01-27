@@ -1,0 +1,215 @@
+//Colores//
+$white: #fff;
+$black: #000;
+$gray: #999999;
+$border-gray:#ccc;
+$green: #58B957;
+$border-green: #48AF46;
+$blue: #56C0E0;
+$border-blue: #3FB8DC;
+$dark-orange: #D99032;
+$red:#DB524B;
+$border-red:#D63D34;
+$orange:#F2AE43;
+$border-orange:#F0A324;
+$label-new:#30b5e1;
+$label-review:#0599CC;
+$label-reviewed:#07BFFF;
+$label-pending:#03607F;
+$label-draft:#134859;
+$label-spo-issued:#2A697F;
+$label-notification:#999;
+$label-invalid:#143642;
+
+
+//Font config//
+
+@font-face {
+    font-family: 'NokiaPureTWebLight';
+    src: url('../fonts/NokiaPureTWeb_Lt.eot');
+    src: url('../fonts/NokiaPureTWeb_Lt.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/NokiaPureTWeb_Lt.woff') format('woff'),
+         url('../fonts/NokiaPureTWeb_Lt.ttf') format('truetype'),
+         url('../fonts/NokiaPureTWeb_Lt.svg#NokiaPureTWebLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'NokiaPureTWebRegular';
+    src: url('../fonts/NokiaPureTWeb_Rg.eot');
+    src: url('../fonts/NokiaPureTWeb_Rg.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/NokiaPureTWeb_Rg.woff') format('woff'),
+         url('../fonts/NokiaPureTWeb_Rg.ttf') format('truetype'),
+         url('../fonts/NokiaPureTWeb_Rg.svg#NokiaPureTWebRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'NokiaPureTWebBold';
+    src: url('../fonts/NokiaPureTWeb_Bd.eot');
+    src: url('../fonts/NokiaPureTWeb_Bd.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/NokiaPureTWeb_Bd.woff') format('woff'),
+         url('../fonts/NokiaPureTWeb_Bd.ttf') format('truetype'),
+         url('../fonts/NokiaPureTWeb_Bd.svg#NokiaPureTWebBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nokia_pure_headlinelight';
+    src: url('../fonts/nokiapureheadline_light-webfont.woff2') format('woff2'),
+         url('../fonts/nokiapureheadline_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nokia_pure_headlineultraLt';
+    src: url('../fonts/nokiapureheadline_ultralight-webfont.woff2') format('woff2'),
+         url('../fonts/nokiapureheadline_ultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$nokiafont-light: "NokiaPureTWebLight";
+$nokiafont-regular: "NokiaPureTWebRegular";
+$nokiafont-bold: "NokiaPureTWebBold";
+$nokiafonth-light: "nokia_pure_headlinelight";
+$nokiafonth-ultra: "nokia_pure_headlineultraLt";
+
+//Tittle styles//
+h1, h2, h3, h4, h5, h6 {
+    color: #444;
+    margin-top: 0;
+    font-family: "NokiaPureTWebRegular";
+    font-weight: normal;
+}
+
+//Button styles//
+.btn-default-vendor{
+	display: block;
+    border-radius: 3px;
+    color: $white;
+    margin:5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    border:1px solid;
+    	:hover,:focus,:active.open>.dropdown-toggle{
+			color: $white;
+			border: none transparent;
+		}
+
+}
+
+.filter-btn,.action-btn,.send-btn,.upload-btn,
+.review-btn,.end-review-btn,.send-report-btn,.comment-btn,
+.download-btn,.helper-btn {
+	background-color:$blue;
+	border-color:$border-blue;
+		:hover,:focus,:active.open>.dropdown-toggle{
+			background-color:$border-blue;
+		}
+}
+
+.cancel-btn,.delete-btn,.discard-btn,.reject-btn,
+.trash-btn{
+	background-color:$red;
+	border-color: $border-red;
+		:hover,:focus,:active.open>.dropdown-toggle{
+			background-color:$border-red;
+		}
+}
+.save-btn,.add-btn,.view-more-btn,.save-changes-btn,
+.change-password-btn,.new-password-btn,.accept-btn {
+	background-color:$green;
+	border-color: $border-green;
+		:hover,:focus,:active.open>.dropdown-toggle{
+			background-color:$border-green;
+		}
+}
+.come-back-btn,.correction-btn,.refresh-btn{
+	background-color:$orange;
+	border-color: $border-orange;
+		:hover,:focus,:active.open>.dropdown-toggle{
+			background-color:$border-orange;
+		}
+}
+.close-btn{
+	background-color:$gray;
+	border-color: $border-gray;
+		:hover,:focus,:active.open>.dropdown-toggle{
+			background-color:$border-gray;
+		}
+}
+
+//Icon style//
+.i-default{
+    font-size: 12px;
+}
+
+//status and notification labels//
+
+.label-status,.label-notification{
+	display: inline;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 24px;
+    color: $white;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    border-radius: 3px;
+    padding: .3em .7em .4em;
+}
+.new-status{
+	background-color:$label-new;
+}
+.review-status{
+	background-color:$label-review;
+}
+.reviewed-status{
+	background-color:$label-reviewed;
+}
+.pending-status{
+	background-color:$label-pending;
+}
+.draft-status{
+	background-color:$label-draft;
+}
+.SPO-issued-status{
+	background-color:$label-spo-issued;
+}
+.claim-invalid-status{
+	background-color:$label-invalid;
+}
+.correction-status{
+	background-color:$orange;
+}
+.accept-status{
+	background-color:$green;
+}
+.reject-status{
+	background-color:$red;
+}
+.label-notification{
+    background-color: $label-notification;
+}
+
+//Change request items styles//
+
+.i-change-request {
+    background-color: #EFF2F4;
+    margin-right: 5px;
+    border-radius: 20px;
+    font-size: 0.7em;
+}

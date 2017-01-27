@@ -1,0 +1,192 @@
+/*@imports*/
+/*body*/
+/* line 2, _main-section.scss */
+.assets-body {
+  background: #eee; }
+  /* line 4, _main-section.scss */
+  .assets-body .assets-container {
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center; }
+    /* line 6, _main-section.scss */
+    .assets-body .assets-container .col-container {
+      display: block;
+      list-style-type: none;
+      padding: 20px;
+      text-align: center; }
+
+@font-face {
+  font-family: 'NokiaPureTWebLight';
+  src: url("../fonts/NokiaPureTWeb_Lt.eot");
+  src: url("../fonts/NokiaPureTWeb_Lt.eot?#iefix") format("embedded-opentype"), url("../fonts/NokiaPureTWeb_Lt.woff") format("woff"), url("../fonts/NokiaPureTWeb_Lt.ttf") format("truetype"), url("../fonts/NokiaPureTWeb_Lt.svg#NokiaPureTWebLight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'NokiaPureTWebRegular';
+  src: url("../fonts/NokiaPureTWeb_Rg.eot");
+  src: url("../fonts/NokiaPureTWeb_Rg.eot?#iefix") format("embedded-opentype"), url("../fonts/NokiaPureTWeb_Rg.woff") format("woff"), url("../fonts/NokiaPureTWeb_Rg.ttf") format("truetype"), url("../fonts/NokiaPureTWeb_Rg.svg#NokiaPureTWebRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'NokiaPureTWebBold';
+  src: url("../fonts/NokiaPureTWeb_Bd.eot");
+  src: url("../fonts/NokiaPureTWeb_Bd.eot?#iefix") format("embedded-opentype"), url("../fonts/NokiaPureTWeb_Bd.woff") format("woff"), url("../fonts/NokiaPureTWeb_Bd.ttf") format("truetype"), url("../fonts/NokiaPureTWeb_Bd.svg#NokiaPureTWebBold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'nokia_pure_headlinelight';
+  src: url("../fonts/nokiapureheadline_light-webfont.woff2") format("woff2"), url("../fonts/nokiapureheadline_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'nokia_pure_headlineultraLt';
+  src: url("../fonts/nokiapureheadline_ultralight-webfont.woff2") format("woff2"), url("../fonts/nokiapureheadline_ultralight-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+/* line 88, _vendor-assets.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+  margin-top: 0;
+  font-family: "NokiaPureTWebRegular";
+  font-weight: normal; }
+
+/* line 96, _vendor-assets.scss */
+.btn-default-vendor {
+  display: block;
+  border-radius: 3px;
+  color: #fff;
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  border: 1px solid; }
+  /* line 106, _vendor-assets.scss */
+  .btn-default-vendor :hover, .btn-default-vendor :focus, .btn-default-vendor :active.open > .dropdown-toggle {
+    color: #fff;
+    border: none transparent; }
+
+/* line 113, _vendor-assets.scss */
+.filter-btn, .action-btn, .send-btn, .upload-btn,
+.review-btn, .end-review-btn, .send-report-btn, .comment-btn,
+.download-btn, .helper-btn {
+  background-color: #56C0E0;
+  border-color: #3FB8DC; }
+  /* line 118, _vendor-assets.scss */
+  .filter-btn :hover, .filter-btn :focus, .filter-btn :active.open > .dropdown-toggle, .action-btn :hover, .action-btn :focus, .action-btn :active.open > .dropdown-toggle, .send-btn :hover, .send-btn :focus, .send-btn :active.open > .dropdown-toggle, .upload-btn :hover, .upload-btn :focus, .upload-btn :active.open > .dropdown-toggle,
+  .review-btn :hover,
+  .review-btn :focus,
+  .review-btn :active.open > .dropdown-toggle, .end-review-btn :hover, .end-review-btn :focus, .end-review-btn :active.open > .dropdown-toggle, .send-report-btn :hover, .send-report-btn :focus, .send-report-btn :active.open > .dropdown-toggle, .comment-btn :hover, .comment-btn :focus, .comment-btn :active.open > .dropdown-toggle,
+  .download-btn :hover,
+  .download-btn :focus,
+  .download-btn :active.open > .dropdown-toggle, .helper-btn :hover, .helper-btn :focus, .helper-btn :active.open > .dropdown-toggle {
+    background-color: #3FB8DC; }
+
+/* line 123, _vendor-assets.scss */
+.cancel-btn, .delete-btn, .discard-btn, .reject-btn,
+.trash-btn {
+  background-color: #DB524B;
+  border-color: #D63D34; }
+  /* line 127, _vendor-assets.scss */
+  .cancel-btn :hover, .cancel-btn :focus, .cancel-btn :active.open > .dropdown-toggle, .delete-btn :hover, .delete-btn :focus, .delete-btn :active.open > .dropdown-toggle, .discard-btn :hover, .discard-btn :focus, .discard-btn :active.open > .dropdown-toggle, .reject-btn :hover, .reject-btn :focus, .reject-btn :active.open > .dropdown-toggle,
+  .trash-btn :hover,
+  .trash-btn :focus,
+  .trash-btn :active.open > .dropdown-toggle {
+    background-color: #D63D34; }
+
+/* line 131, _vendor-assets.scss */
+.save-btn, .add-btn, .view-more-btn, .save-changes-btn,
+.change-password-btn, .new-password-btn, .accept-btn {
+  background-color: #58B957;
+  border-color: #48AF46; }
+  /* line 135, _vendor-assets.scss */
+  .save-btn :hover, .save-btn :focus, .save-btn :active.open > .dropdown-toggle, .add-btn :hover, .add-btn :focus, .add-btn :active.open > .dropdown-toggle, .view-more-btn :hover, .view-more-btn :focus, .view-more-btn :active.open > .dropdown-toggle, .save-changes-btn :hover, .save-changes-btn :focus, .save-changes-btn :active.open > .dropdown-toggle,
+  .change-password-btn :hover,
+  .change-password-btn :focus,
+  .change-password-btn :active.open > .dropdown-toggle, .new-password-btn :hover, .new-password-btn :focus, .new-password-btn :active.open > .dropdown-toggle, .accept-btn :hover, .accept-btn :focus, .accept-btn :active.open > .dropdown-toggle {
+    background-color: #48AF46; }
+
+/* line 139, _vendor-assets.scss */
+.come-back-btn, .correction-btn, .refresh-btn {
+  background-color: #F2AE43;
+  border-color: #F0A324; }
+  /* line 142, _vendor-assets.scss */
+  .come-back-btn :hover, .come-back-btn :focus, .come-back-btn :active.open > .dropdown-toggle, .correction-btn :hover, .correction-btn :focus, .correction-btn :active.open > .dropdown-toggle, .refresh-btn :hover, .refresh-btn :focus, .refresh-btn :active.open > .dropdown-toggle {
+    background-color: #F0A324; }
+
+/* line 146, _vendor-assets.scss */
+.close-btn {
+  background-color: #999999;
+  border-color: #ccc; }
+  /* line 149, _vendor-assets.scss */
+  .close-btn :hover, .close-btn :focus, .close-btn :active.open > .dropdown-toggle {
+    background-color: #ccc; }
+
+/* line 155, _vendor-assets.scss */
+.i-default {
+  font-size: 12px; }
+
+/* line 161, _vendor-assets.scss */
+.label-status, .label-notification {
+  display: inline;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  text-transform: uppercase;
+  vertical-align: baseline;
+  border-radius: 3px;
+  padding: .3em .7em .4em; }
+
+/* line 174, _vendor-assets.scss */
+.new-status {
+  background-color: #30b5e1; }
+
+/* line 177, _vendor-assets.scss */
+.review-status {
+  background-color: #0599CC; }
+
+/* line 180, _vendor-assets.scss */
+.reviewed-status {
+  background-color: #07BFFF; }
+
+/* line 183, _vendor-assets.scss */
+.pending-status {
+  background-color: #03607F; }
+
+/* line 186, _vendor-assets.scss */
+.draft-status {
+  background-color: #134859; }
+
+/* line 189, _vendor-assets.scss */
+.SPO-issued-status {
+  background-color: #2A697F; }
+
+/* line 192, _vendor-assets.scss */
+.claim-invalid-status {
+  background-color: #143642; }
+
+/* line 195, _vendor-assets.scss */
+.correction-status {
+  background-color: #F2AE43; }
+
+/* line 198, _vendor-assets.scss */
+.accept-status {
+  background-color: #58B957; }
+
+/* line 201, _vendor-assets.scss */
+.reject-status {
+  background-color: #DB524B; }
+
+/* line 204, _vendor-assets.scss */
+.label-notification {
+  background-color: #999; }
+
+/* line 210, _vendor-assets.scss */
+.i-change-request {
+  background-color: #EFF2F4;
+  margin-right: 5px;
+  border-radius: 20px;
+  font-size: 0.7em; }
